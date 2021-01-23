@@ -30,9 +30,94 @@
 	</section>
 	<section class="CRANE-FORKLIFT">
 		<div class="crane-forklift-margin">
-			<h2>FORKLIFT</h2>
+			<h1>FORKLIFT</h1>
 			<p>PT. Multi Crane Utama siap menyediakan layanan pengangkatan dan pemindahan material, pekerjaan infrastruktur, dan pekerjaan lainnya yang membutuhkan tenaga forklift.</p>
 		</div>
 	</section>
+	<section class="CRANE">
+		<div class="tentang-kami-left">
+			<div id="color1" class="crane1" onClick="content1('0')">
+				<h2 id="textcolor1">KAPASITAS<br>3 TON</h2>
+			</div>
+			<div id="color2" class="crane2" onClick="content2('0')">
+				<h2 id="textcolor2">KAPASITAS<br>5 TON</h2>
+			</div>
+			<div id="color3" class="crane3" onClick="content3('0')">
+				<h2 id="textcolor3">KAPASITAS<br>7 TON</h2>
+			</div>
+		</div>
+		<div id="open1" class="tentang-kami-right1">
+			<div class="craneimage1"><h1>KAPASITAS 5 TON</h1></div>
+			<div class="imagecrane1">
+				<img alt="crane" src="assets/CRANE 7 Ton 1.jpeg">
+				<img alt="crane" src="assets/CRANE 7 Ton 2.jpeg">
+				<img alt="crane" src="assets/CRANE 7 Ton 3.jpeg">
+				<img alt="crane" src="assets/CRANE 7 Ton 4.jpeg">
+			</div>
+		</div>
+		<div id="open2" class="tentang-kami-right2">
+			<div class="craneimage1"><h1>KAPASITAS 3 TON</h1></div>
+			<div class="imagecrane1">
+				<img alt="crane" src="assets/CRANE 16 Ton 1.jpeg">
+				<img alt="crane" src="assets/CRANE 16 Ton 2.jpeg">
+				<img alt="crane" src="assets/CRANE 16 Ton 3.jpeg">
+			</div>
+		</div>
+		<div id="open3" class="tentang-kami-right3">
+			<div class="craneimage1"><h1>KAPASITAS 7 TON</h1></div>
+			<div class="imagecrane1">
+				<img alt="crane" src="assets/CRANE 16 Ton 1.jpeg">
+				<img alt="crane" src="assets/CRANE 16 Ton 2.jpeg">
+				<img alt="crane" src="assets/CRANE 16 Ton 3.jpeg">
+			</div>
+		</div>
+	</section>
+	<section class="FOOTER">
+		<div class="footer1">
+			<h2>PT MULTI CRANE UTAMA</h2>
+			<p>Jl. Gatot Subroto KM 3 Uwung Jaya Cibodas, Tangerang - Banten</p>
+			<p>Telp. 021-5516073, 021-5514739</p>
+			<p>Fax. 021-5516074</p>
+			<p>E-mail : multicraneutama@gmail.com</p>
+		</div>
+		<div class="footer2">
+		</div>
+		<div class="footer3">
+			<div class="footer-nav"><a href="index.html"><p>HOME</p></a></div>
+			<div class="footer-nav"><a href="crane.html"><p>CRANE</p></a></div>
+			<div class="footer-nav"><a href="forklift.html"><p>FORKLIFT</p></a></div>
+			<div class="footer-nav"><a href="tentang kami.html"><p>TENTANG KAMI</p></a></div>
+			<div class="footer-nav"><a href="kontak.html"><p>KONTAK</p></a></div>
+		</div>
+	</section>
+	<section class="FOOTER1">
+		<p>Copyright PT MULTI CRANE UTAMA.2021 - All Rights Reserved</p>
+	</section>
 </body>
+<script>
+	function content1(x) {
+		document.getElementById('open1').style.display = "block";
+		document.getElementById('open2').style.display = "none";
+		document.getElementById('open3').style.display = "none";
+		document.getElementById('color1').style.backgroundImage = "linear-gradient(to right, rgba(0,82,128,0.49), rgba(0,82,128,0.49)), url('assets/CRANE 7 Ton 1.jpeg')";
+		document.getElementById('color2').style.backgroundImage = "linear-gradient(to right, rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url('assets/CRANE 16 Ton 1.jpeg')";
+		document.getElementById('color3').style.backgroundImage = "linear-gradient(to right, rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url('assets/CRANE 16 Ton 2.jpeg')";
+	}
+	function content2(x) {
+		document.getElementById('open1').style.display = "none";
+		document.getElementById('open2').style.display = "block"
+		document.getElementById('open3').style.display = "none";
+		document.getElementById('color1').style.backgroundImage = "linear-gradient(to right, rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url('assets/CRANE 7 Ton 1.jpeg')";
+		document.getElementById('color2').style.backgroundImage = "linear-gradient(to right, rgba(0,82,128,0.49), rgba(0,82,128,0.49)), url('assets/CRANE 16 Ton 1.jpeg')";
+		document.getElementById('color3').style.backgroundImage = "linear-gradient(to right, rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url('assets/CRANE 16 Ton 2.jpeg')";
+	}
+	function content3(x) {
+		document.getElementById('open1').style.display = "none";
+		document.getElementById('open2').style.display = "none";
+		document.getElementById('open3').style.display = "block";
+		document.getElementById('color1').style.backgroundImage = "linear-gradient(to right, rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url('assets/CRANE 7 Ton 1.jpeg')";
+		document.getElementById('color2').style.backgroundImage = "linear-gradient(to right, rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url('assets/CRANE 16 Ton 1.jpeg')";
+		document.getElementById('color3').style.backgroundImage = "linear-gradient(to right, rgba(0,82,128,0.49), rgba(0,82,128,0.49)), url('assets/CRANE 16 Ton 2.jpeg')";
+	}
+</script>
 </html>

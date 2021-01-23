@@ -86,6 +86,7 @@ section.HEAD3 {
 }
 .lefttext h2 {
 	padding-top: 2%;
+	font-size: 60px;
 }
 .right {
 	width: 55%;
@@ -134,7 +135,7 @@ section.HEAD4 {
 	width: 100%;
 	height: 50%;
 }
-.context h2 {
+.context h3 {
 	padding-top: 2%;
 	text-align: center;
 	font-size: 25px;
@@ -143,7 +144,6 @@ section.HEAD4 {
 .context p {
 	padding-top: 1%;
 	text-align: center;
-	font-size: 14px;
 	color: #005280;
 	line-height: normal;
 }
@@ -154,10 +154,10 @@ section.HEAD5 {
 	background-color: #e8c236;
 	margin-top: 2%;
 }
-.HEAD5 h2 {
+.HEAD5 h1 {
 	text-align: center;
 	color: #005280;
-	padding-top: 1%;
+	padding-top: 2%;
 }
 
 section.HEAD6 {
@@ -192,7 +192,7 @@ section.HEAD6 {
 	width: 100%;
 	margin-top: 13%;
 }
-.head6-lefttext h2 {
+.head6-lefttext h1 {
 	text-align: center;
 }
 .head6-lefttext1 {
@@ -221,7 +221,6 @@ section.HEAD7 {
 	float: left;
 }
 .head7-left h2 {
-	font-size: 30px;
 	text-align: right;
 	padding-top: 3%;
 }
@@ -253,7 +252,6 @@ section.FOOTER {
 }
 .footer1 h2 {
 	text-align: center;
-	font-size: 40px;
 	color: #005280;
 	padding-bottom: 1%;
 	padding-top: 1%;
@@ -314,7 +312,7 @@ section.LOCATION {
 	background-color: #E8C236;
 	margin-top: 1%;
 }
-section.LOCATION h2 {
+section.LOCATION h1 {
 	padding-top: 2%;
 	font-size: 40px;
 	color: #005280;
@@ -349,29 +347,23 @@ section.KONTAK1 {
 	margin-right: auto;
 }
 
-.kontak1-text1 h2 {
-	font-size: 20px;
+.kontak1-text1 h3 {
 	padding-top: 4%;
 	padding-bottom: 1%;
 }
 
-.kontak1-text1 p {
-	font-size: 15px;
-}
+
 .kontak1-text2 {
 	width: 80%;
 	height: 50%;
 	margin-left: auto;
 	margin-right: auto;
 }
-.kontak1-text2 h2 {
-	font-size: 20px;
+.kontak1-text2 h3 {
 	padding-top: 4%;
 	padding-bottom: 1%;
 }
-.kontak1-text2 p {
-	font-size: 15px;
-}
+
 
 section.CRANE-FORKLIFT {
 	width: 100%;
@@ -385,15 +377,13 @@ section.CRANE-FORKLIFT {
 	margin-left: auto;
 	margin-right: auto;
 }
-.crane-forklift-margin h2 {
-	font-size: 40px;
+.crane-forklift-margin h1 {
 	padding-top: 2%;
 	color: #005280;
 	padding-bottom: 1%;
 }
 .crane-forklift-margin p {
 	color: #005280;
-	font-size: 15px;
 }
 
 
@@ -416,7 +406,6 @@ section.TENTANG-KAMI {
 .tentang-kami-left1 h2 {
 	color: #005280;
 	text-align: center;
-	font-size: 30px;
 	padding-top: 20%;
 	text-decoration: underline;
 }
@@ -429,7 +418,6 @@ section.TENTANG-KAMI {
 .tentang-kami-left2 h2 {
 	color: #E8C236;
 	text-align: center;
-	font-size: 30px;
 	padding-top: 20%;
 }
 
@@ -469,18 +457,16 @@ section.TENTANG-KAMI {
 	height: 100%;
 	margin-left: 5%;
 }
-.tentang-kami-right h2 {
+.tentang-kami-right h1 {
 	font-size: 50px;
 	color: #005280;
 	padding-top: 3%;
 }
 .tentang-kami-right p {
 	color: #005280;
-	font-size: 15px;
 	padding-top: 3%;
 }
-.tentang-kami-right h1 {
-	font-size: 20px;
+.tentang-kami-right h3 {
 	color: #005280;
 	padding-top: 2%;
 }
@@ -502,7 +488,6 @@ section.CRANE {
 .crane1 h2 {
 	color: #E8C236;
 	text-align: center;
-	font-size: 30px;
 	padding-top: 12%;
 }
 
@@ -519,7 +504,6 @@ section.CRANE {
 .crane2 h2 {
 	color: #E8C236;
 	text-align: center;
-	font-size: 30px;
 	padding-top: 10%;
 }
 
@@ -536,7 +520,6 @@ section.CRANE {
 .crane3 h2 {
 	color: #E8C236;
 	text-align: center;
-	font-size: 30px;
 	padding-top: 12%;
 }
 
@@ -553,7 +536,6 @@ section.CRANE {
 .crane4 h2 {
 	color: #E8C236;
 	text-align: center;
-	font-size: 30px;
 	padding-top: 12%;
 }
 
@@ -570,7 +552,6 @@ section.CRANE {
 .crane5 h2 {
 	color: #E8C236;
 	text-align: center;
-	font-size: 30px;
 	padding-top: 12%;
 }
 
@@ -580,9 +561,8 @@ section.CRANE {
 	margin-left: 5%;
 }
 
-.craneimage1 h2 {
+.craneimage1 h1 {
 	color: #005280;
-	font-size: 50px;
 	padding-top: 2%;
 }
 .imagecrane1 {
@@ -598,7 +578,15 @@ section.CRANE {
 }
 
 
+@media (max-width: 1280px) {
+	.infotop p {
+		padding-top: 0.2%;
+	}
+	.nav p {
+		font-size: 15px;
+	}
 
+}
 
 
 
