@@ -38,7 +38,7 @@ section.HEAD2 {
 	margin-bottom: 2%;
 }
 .logotitle img {
-	height: 100%;
+	width: 100%;
 }
 .navigation {
 	width: 100%;
@@ -84,9 +84,8 @@ section.HEAD3 {
 	padding-top: 8%;
 	line-height: 1;
 }
-.lefttext h2 {
+.lefttext h4 {
 	padding-top: 2%;
-	font-size: 60px;
 }
 .right {
 	width: 55%;
@@ -138,7 +137,6 @@ section.HEAD4 {
 .context h3 {
 	padding-top: 2%;
 	text-align: center;
-	font-size: 25px;
 	color: #005280; 
 }
 .context p {
@@ -259,7 +257,6 @@ section.FOOTER {
 .footer1 p {
 	text-align: center;
 	color: #005280;
-	font-size: 12px;
 }
 .footer2 {
 	width: 30%;
@@ -296,11 +293,9 @@ section.FOOTER1 {
 }
 
 section.FOOTER1 p {
-	font-size: 12px;
 	padding-top: 0.5%;
 	text-align: center;
 	color: #E8C236;
-	
 }
 
 
@@ -314,7 +309,6 @@ section.LOCATION {
 }
 section.LOCATION h1 {
 	padding-top: 2%;
-	font-size: 40px;
 	color: #005280;
 	margin-left: 10%;
 }
@@ -458,7 +452,6 @@ section.TENTANG-KAMI {
 	margin-left: 5%;
 }
 .tentang-kami-right h1 {
-	font-size: 50px;
 	color: #005280;
 	padding-top: 3%;
 }
@@ -582,17 +575,138 @@ section.CRANE {
 	.infotop p {
 		padding-top: 0.2%;
 	}
-	.nav p {
-		font-size: 15px;
-	}
 
 }
 
+@media (max-width: 1024px) {
+	section.HEAD {
+		height: 3vh;
+	}
+	section.HEAD2 {
+		height: 10vh;
+	}
+	section.HEAD3 {
+		height: 17vh;
+	}
+	section.HEAD4 {
+		height: 15vh;
+	}
+	section.HEAD5 {
+		height: 6vh;
+	}
+	section.HEAD6 {
+		height: 20vh;
+	}
+	section.HEAD7 {
+		height: 6vh;
+	}
+	section.FOOTER {
+		height: 20vh;
+	}
+	section.FOOTER1 {
+		height: 3vh;
+	}
+	section.CRANE-FORKLIFT {
+		height: 15vh;
+	}
+	section.CRANE {
+		height: 45vh;
+	}
+	section.TENTANG-KAMI {
+		height: 40vh;
+	}
+	section.LOCATION {
+		height: 5vh;
+	}
+	section.MAPS {
+		height: 30vh;
+	}
+	section.KONTAK1 {
+		height: 25vh;
+	}
+}
 
+@media (max-width: 414px) {
+	section.HEAD {
+		height: 3vh;
+	}
+	.infotop p {
+		padding-top: 1%;
+	}
+	section.HEAD2 {
+		height: 7vh;
+	}
+	section.HEAD3 {
+		height: 13vh;
+	}
+	section.HEAD4 {
+		height: 14vh;
+	}
+	.icon2 img {
+		height: 80%;
+	}
+	section.HEAD5 {
+		height: 6vh;
+	}
+	section.HEAD5 h1 {
+		padding-top: 3%;
+	}
+	
+	section.HEAD6 {
+		height: 15vh;
+	}
+	section.HEAD7 {
+		height: 4vh;
+	}
+	.head7-right p {
+		line-height: 9px;
+	}
+	section.FOOTER {
+		height: 15vh;
+	}
+	section.FOOTER1 {
+		height: 3vh;
+	}
+	section.FOOTER1 p {
+		padding-top: 1%;
+	}
+	section.CRANE-FORKLIFT {
+		height: 13vh;
+	}
+	section.CRANE {
+		height: 35vh;
+	}
+	section.TENTANG-KAMI {
+		height: 30vh;
+	}
+	section.LOCATION {
+		height: 4vh;
+	}
+	section.MAPS {
+		height: 20vh;
+	}
+	section.KONTAK1 {
+		height: 20vh;
+	}
+}
 
-
-
-
+@media (max-width: 375px) {
+	section.CRANE-FORKLIFT {
+		height: 15vh;
+	}
+	section.HEAD3 {
+		height: 16vh;
+	}
+	section.HEAD4 {
+		height: 15vh;
+	}
+	.head7-left {
+		width: 80%;
+	}
+	.head7-right {
+		width: 10%;
+	}
+}
 
 
 
